@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".desc"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:hint="Title Will Be Shown Here"
+        android:textSize="30dp"
+        android:id="@+id/nametv1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:hint="Description Is Shown Here"
+        android:id="@+id/desctv1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textSize="30dp"
+            android:layout_weight="0.1"
+            android:hint="Date Is Shown Here"
+            android:id="@+id/datetv1"
+            />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:textSize="30dp"
+            android:layout_weight="0.1"
+            android:hint="Time Is Shown Here"
+            android:id="@+id/timetv1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
